@@ -138,7 +138,7 @@ EOL
 # helm-simple/coupon/templates/ingress.yaml
 cat >helm-simple/coupon/templates/ingress.yaml <<EOL
 kind: Ingress
-apiVersion: extensions/v1beta1
+apiVersion: extensions/v1
 metadata:
   name: coupon
   labels:
