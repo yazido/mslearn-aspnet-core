@@ -18,7 +18,7 @@ declare -x dotnetSdkVersion="3.1.406"
 
 # Any other declarations we need
 declare -x gitBranch="live"
-declare initScript=https://raw.githubusercontent.com/MicrosoftDocs/mslearn-aspnet-core/$gitBranch/infrastructure/scripts/initenvironment.sh
+declare initScript=https://raw.githubusercontent.com/yazido/mslearn-aspnet-core/$gitBranch/infrastructure/scripts/initenvironment.sh
 declare -x projectRootDirectory="ContosoPets.Ui"
 
 # If the script appears to have already been run, just set the vars and leave.

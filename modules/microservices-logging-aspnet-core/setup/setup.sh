@@ -19,7 +19,7 @@ declare moduleName="microservices-logging-aspnet-core"
 
 # Any other declarations we need
 declare -x gitBranch="live"
-declare initScript=https://raw.githubusercontent.com/MicrosoftDocs/mslearn-aspnet-core/$gitBranch/infrastructure/scripts/initenvironment.sh
+declare initScript=https://raw.githubusercontent.com/yazido/mslearn-aspnet-core/$gitBranch/infrastructure/scripts/initenvironment.sh
 declare suppressAzureResources=true
 declare rootLocation=~/clouddrive
 declare editorHomeLocation=$rootLocation/aspnet-learn/src
